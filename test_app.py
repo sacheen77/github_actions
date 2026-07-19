@@ -11,3 +11,5 @@ def test_home():
 def test_health():
     response = client.get("/health")
     assert response.status_code == 200
+
+    print("rebase")
